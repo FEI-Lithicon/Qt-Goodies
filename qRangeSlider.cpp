@@ -683,7 +683,6 @@ void QStyleRangeSlider::paintTicks(QPainter& p, const QRect& bbox,
 void QRangeSlider::paintEvent(QPaintEvent*)
 {
   QPainter p(this);
-  QRect bbox = getBBox();
 
   styleRangeSlider()->drawComplexControl(QStyle::CC_CustomBase,
                                          &styleOptionRangeSlider_,
